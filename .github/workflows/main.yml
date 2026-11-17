@@ -2,8 +2,10 @@ name: test
 on: workflow_dispatch
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
-      step: name
-        run : echo "Hi"
+      - name: Print a greeting
+        run: echo "Hi"
+    
    
   
