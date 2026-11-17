@@ -1,5 +1,6 @@
 name: love
 on: workflow_dispatch
+run-name: ram
 jobs:
   build:
     runs-on: ubuntu-latest
