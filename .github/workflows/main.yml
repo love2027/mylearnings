@@ -1,0 +1,9 @@
+name: test
+on: workflow_dispatch
+jobs:
+  test:
+    steps:
+      step: name
+        run : echo "Hi"
+   
+  
