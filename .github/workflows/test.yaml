@@ -1,6 +1,6 @@
 name: love
 on: workflow_dispatch
-run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+run-name: Deploy by @${{ github.actor }}
 jobs:
   build:
     runs-on: ubuntu-latest
